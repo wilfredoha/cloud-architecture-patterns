@@ -33,3 +33,4 @@ Este patrón es esencial para sistemas distribuidos donde múltiples nodos deben
 
 ## 🧪 Ejemplo de Arquitectura
 
+![Load Balancing Architecture](images/load_balancer.md)
