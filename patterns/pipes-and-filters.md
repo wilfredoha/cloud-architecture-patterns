@@ -68,9 +68,26 @@ Punto final del pipeline donde los datos se almacenan o notifican.
 
 ---
 
-## ☁️ Ejemplo de arquitectura cloud
+## 📈 Ventajas
+- Modularidad y reutilización de filtros.
+- Fácil de escalar cada etapa según su carga.
+- Desacoplamiento de etapas (tolerancia a fallos).
+- Alineado con arquitectura serverless y basada en eventos.
 
-![AWS Pipes and Filters Pattern](../images/pipes_and_filters_aws)
+---
+
+## ⚠️ Consideraciones
+- Acumulación de latencia entre etapas.
+- Visibilidad: requiere buen monitoreo de cada filtro.
+- Posibilidad de pérdida de mensajes si no se usan colas durables.
+
+---
+
+## 🧠 Buenas prácticas
+- Hacer cada filtro stateless y idempotente.
+- Usar colas resilientes (SQS con retry + DLQ).
+- Incluir tracing distribuido y métricas por etapa.
+- Documentar los contratos de entrada y salida entre filtros.
 
 ---
 
