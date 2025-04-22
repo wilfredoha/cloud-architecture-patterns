@@ -71,3 +71,7 @@ Punto final del pipeline donde los datos se almacenan o notifican.
 ## ☁️ Ejemplo de arquitectura cloud
 
 ![AWS Pipes and Filters Pattern](../images/pipes_and_filters_aws)
+
+---
+
+[Menú Principal](https://github.com/wilfredoha/cloud-architecture-patterns)

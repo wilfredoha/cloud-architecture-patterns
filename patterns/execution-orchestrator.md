@@ -51,3 +51,5 @@ En lugar de que cada servicio invoque al siguiente (como en el patrón de coreog
 - **Eventos/Resultados**: El orquestador recoge las respuestas y decide el siguiente paso.
 
 ---
+
+[Menú Principal](https://github.com/wilfredoha/cloud-architecture-patterns)

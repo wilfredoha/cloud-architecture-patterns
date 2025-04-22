@@ -92,3 +92,5 @@ El patrón de Load Balancing se potencia cuando se combina con **autoscaling**, 
   - Ribbon, gRPC, Spring Cloud LoadBalancer
 
 ---
+
+[Menú Principal](https://github.com/wilfredoha/cloud-architecture-patterns)

@@ -64,3 +64,7 @@ Es útil cuando una operación puede o debe ser paralizada para mejorar rendimie
 ## 🧪 Ejemplo cloud
 
 ![AWS Scatter-Gather](../images/scatter-gather-aws.png)
+
+---
+
+[Menú Principal](https://github.com/wilfredoha/cloud-architecture-patterns)
