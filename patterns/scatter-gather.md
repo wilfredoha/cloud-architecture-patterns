@@ -61,9 +61,25 @@ Es útil cuando una operación puede o debe ser paralizada para mejorar rendimie
 
 ---
 
-## 🧪 Ejemplo cloud
+## 📈 Ventajas
+- Alto rendimiento y eficiencia (paralelización).
+- Resiliencia: no depende de un único proveedor o servicio.
+- Adaptabilidad: se puede aplicar para comparar, validar o enriquecer información.
 
-![AWS Scatter-Gather](../images/scatter-gather-aws.png)
+---
+
+## ⚠️ Desventajas
+- Lógica de consolidación puede ser compleja.
+- Riesgo de inconsistencia si hay respuestas contradictorias.
+- Necesidad de manejo de fallos y timeouts en la etapa de "Gather".
+
+---
+
+## 🧠 Buenas prácticas
+- Diseñar workers para ser idempotentes y resilientes.
+- Definir límites de tiempo adecuados por respuesta.
+- Usar tracing distribuido para rastrear cada rama de ejecución.
+- Considerar casos en los que uno o más servicios fallen.
 
 ---
 
