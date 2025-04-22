@@ -53,4 +53,27 @@ Este patrón encaja perfectamente en sistemas **event-driven**, promoviendo **de
 
 ---
 
+## ⚠️ Desafíos del patrón
+
+- **Complejidad de seguimiento**: difícil rastrear el estado general sin observabilidad.
+- **Testing distribuido**: más difícil probar flujos de extremo a extremo.
+- **Gestión de errores y compensaciones**: requiere sagas u otros mecanismos de rollback.
+
+---
+
+## 🔁 Integración con otros patrones
+- **Saga Pattern**: Ideal para manejar compensaciones en coreografías complejas.
+- **Event Sourcing**: Complementa con trazabilidad histórica.
+- **Dead Letter Queue (DLQ)**: Manejo de errores y reintentos.
+
+---
+
+## 🧱 Buenas prácticas
+- Diseñar contratos de eventos claros y versionados.
+- Implementar trazabilidad distribuida (ej. AWS X-Ray, OpenTelemetry).
+- Manejar reintentos, duplicados y fallos en los consumidores.
+- Documentar el flujo en diagramas de eventos.
+
+---
+
 [Menú Principal](https://github.com/wilfredoha/cloud-architecture-patterns)

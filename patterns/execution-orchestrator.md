@@ -52,4 +52,25 @@ En lugar de que cada servicio invoque al siguiente (como en el patrón de coreog
 
 ---
 
+## ⚠️ Desafíos del Execution Orchestration Pattern
+- Punto único de fallo (SPOF)
+- Acoplamiento indirecto entre servicios
+- Complejidad del orquestador
+- Rendimiento y escalabilidad
+- Gestión de errores y compensaciones
+- Visibilidad vs. Flexibilidad
+- Testing y simulación de flujos
+- Tiempos de latencia
+
+---
+
+## 🧠 Buenas prácticas
+- Mantener el orquestador separado de los servicios (no mezclar lógica).
+- Los microservicios deben ser atómicos, idempotentes y desacoplados.
+- Implementar métricas y tracing por paso del flujo.
+- Preparar estrategias de reintento y compensación (sagas si aplica).
+- Usar definiciones declarativas (ej. YAML en Step Functions o Azure Workflows).
+
+---
+
 [Menú Principal](https://github.com/wilfredoha/cloud-architecture-patterns)
