@@ -52,3 +52,5 @@ Este patrón encaja perfectamente en sistemas **event-driven**, promoviendo **de
 - **Consumidores de eventos**: Servicios que reaccionan a eventos y ejecutan su parte del flujo.
 
 ---
+
+[Menú Principal](https://github.com/wilfredoha/cloud-architecture-patterns)
