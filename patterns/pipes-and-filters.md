@@ -68,6 +68,6 @@ Punto final del pipeline donde los datos se almacenan o notifican.
 
 ---
 
-## ☁️ Ejemplo de arquitectura cloud: procesamiento de video
+## ☁️ Ejemplo de arquitectura cloud
 
 ![AWS Pipes and Filters Pattern](../images/pipes_and_filters_aws)
