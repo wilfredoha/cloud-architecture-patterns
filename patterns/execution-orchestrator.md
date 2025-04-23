@@ -33,17 +33,6 @@ En lugar de que cada servicio invoque al siguiente (como en el patrón de coreog
 
 ---
 
-## ☁️ Ejemplo de implementación en la nube
-
-| Servicio        | Plataforma                    |
-|-----------------|-------------------------------|
-| AWS             | Step Functions, SWF           |
-| Azure           | Durable Functions, Logic Apps |
-| GCP             | Workflows, Cloud Composer     |
-| Genérico        | Camunda, Temporal, Zeebe      |
-
----
-
 ## 📦 Componentes del patrón
 
 - **Orquestador**: Servicio central que define y ejecuta el flujo.

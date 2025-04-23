@@ -37,17 +37,6 @@ Es ampliamente utilizado en entornos de Big Data, como análisis de logs, proces
 
 ---
 
-## ☁️ Ejemplo de implementación en la nube
-
-| Plataforma         | Servicios relevantes                  |
-|-------------------|----------------------------------------|
-| AWS               | Amazon EMR, AWS Lambda + S3, AWS Glue |
-| Google Cloud      | Cloud Dataflow (Apache Beam)           |
-| Azure             | Azure HDInsight, Azure Data Lake       |
-| Open Source       | Apache Hadoop, Apache Spark            |
-
----
-
 ## 🧱 Arquitectura
 
 ### 1. Data Source (Input Split)
