@@ -33,18 +33,6 @@ Este patrón encaja perfectamente en sistemas **event-driven**, promoviendo **de
 
 ---
 
-## ☁️ Ejemplo técnico en la nube
-
-| Servicio                | Plataforma                     |
-|-------------------------|--------------------------------|
-| AWS                     | SNS, EventBridge               |
-| Azure                   | Event Grid, Service Bus        |
-| GCP                     | Pub/Sub                        |
-| Open Source             | Apache Kafka, NATS, RabbitMQ   |
-| SaaS / BaaS             | Temporal.io, Camunda Zeebe     |
-
----
-
 ## 📦 Componentes del patrón
 
 - **Event Broker**: Canal de eventos que conecta los microservicios.
