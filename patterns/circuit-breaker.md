@@ -41,8 +41,7 @@ El circuito tiene tres estados:
 - Determinar umbrales adecuados de error (ej. 50% de fallos en 20 solicitudes).
 - Configurar tiempos de espera realistas entre estados (ej. 30s).
 - Monitorear constantemente la tasa de error y el estado del circuito.
-- Ideal combinarlo con Retry Pattern y Timeout Pattern.
-- Si se combina con fallback, es importante que este también sea confiable.
+- Ideal combinarlo con Retry Pattern.
 
 ---
 
