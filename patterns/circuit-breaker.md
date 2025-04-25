@@ -30,13 +30,10 @@ El circuito tiene tres estados:
 ---
 
 ✅ Casos de uso
-Comunicación con servicios de terceros (APIs de pago, correo, etc.).
-
-Llamadas entre microservicios que dependen unos de otros.
-
-Operaciones costosas en términos de procesamiento o I/O.
-
-Sistemas donde una caída en cascada podría escalar rápidamente.
+- Comunicación con servicios de terceros (APIs de pago, correo, etc.).
+- Llamadas entre microservicios que dependen unos de otros.
+- Operaciones costosas en términos de procesamiento o I/O.
+- Sistemas donde una caída en cascada podría escalar rápidamente.
 
 ---
 
