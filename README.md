@@ -75,5 +75,5 @@ El objetivo principal es servir como una fuente de referencia para arquitectos d
 ## 📜 Licencia
 
 Contenido educativo con fines de estudio, análisis y difusión.  
-© 2025 [Wilfredo Holguín Arbeláez] – Todos los derechos reservados.
+© 2025 Wilfredo Holguín Arbeláez – Todos los derechos reservados.
 
