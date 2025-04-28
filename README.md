@@ -1,9 +1,8 @@
 # ☁️ Cloud Computing Software Architecture Patterns
 
-Este repositorio documenta los patrones arquitectónicos cubiertos en el curso  
-**_“The Complete Cloud Computing Software Architecture Patterns”_** de **Michael Pogrebinsky**, organizados por categorías clave: escalabilidad, rendimiento, extensibilidad, confiabilidad y despliegue.
-
-Cada patrón incluye descripción, casos de uso, tecnologías comunes y ejemplos prácticos.
+Este repositorio recopila y organiza una amplia colección de patrones de arquitectura de software aplicados a entornos de computación en la nube.  
+Cada patrón está documentado de manera práctica, incluyendo su propósito, los problemas que resuelve, casos de uso comunes, ventajas, desafíos y consideraciones de implementación.  
+El objetivo principal es servir como una fuente de referencia para arquitectos de software, ingenieros de sistemas, desarrolladores y cualquier profesional interesado en diseñar soluciones escalables, resilientes, extensibles y de alto rendimiento en plataformas cloud-native.
 
 ---
 
@@ -62,6 +61,14 @@ Cada patrón incluye descripción, casos de uso, tecnologías comunes y ejemplos
 - [5.2 Blue-Green Deployment Pattern](patterns/blue-green.md)
 - [5.3 Canary Release and A/B Testing Deployment Patterns](patterns/canary-ab-testing.md)
 - [5.4 Chaos Engineering Production Testing Pattern](patterns/chaos-engineering.md)
+
+---
+
+## 📚 Propósito del repositorio
+
+- Consolidar conocimientos sobre patrones de arquitectura moderna en la nube.
+- Facilitar la consulta rápida de patrones con explicaciones claras.
+- Servir como material de referencia para diseño de soluciones cloud-native.
 
 ---
 
