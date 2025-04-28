@@ -5,6 +5,7 @@
 **Chaos Engineering** es la práctica de experimentar de manera proactiva en sistemas distribuidos para identificar debilidades antes de que causen problemas en producción.  
 Consiste en introducir fallas controladas para validar la resiliencia, la recuperación automática y la tolerancia a fallos del sistema.
 
+![Chaos Engineering Pattern](../images/chaos-engineering-slide1.png)
 ---
 
 ## 🎯 ¿Qué problema soluciona?
@@ -23,7 +24,6 @@ Consiste en introducir fallas controladas para validar la resiliencia, la recupe
 4. Se observan los efectos y se validan o rechazan las hipótesis.
 5. Se corrigen los problemas detectados para mejorar la resiliencia.
 
-![Chaos Engineering Pattern](../images/chaos-engineering-slide1.png)
 
 ---
 
